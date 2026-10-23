@@ -1,0 +1,41 @@
+# herdr-tasks - a cross-project task board for herdr.
+#
+# One Rust/ratatui binary: `tui` is the panel, every other subcommand is the
+# CLI agents use. Tasks live under the plugin config dir, one folder per task.
+
+id = "herdr-tasks"
+name = "herdr-tasks"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Cross-project task board for herdr: grouped list, kanban when wide, CLI + agent skill."
+platforms = ["linux", "macos"]
+
+[[build]]
+command = ["cargo", "build", "--release"]
+
+# The docked panel (right split, ~33% of the tab; see scripts/open-dock.sh).
+# The `./` is required: herdr resolves pane commands through PATH.
+[[panes]]
+id = "dock"
+title = "Tasks"
+placement = "split"
+command = ["./target/release/herdr-tasks", "tui", "--surface", "dock"]
+
+# The wide board (kanban for the status grouping).
+[[panes]]
+id = "board"
+title = "Tasks Board"
+placement = "overlay"
+command = ["./target/release/herdr-tasks", "tui", "--surface", "board"]
+
+[[actions]]
+id = "open-dock"
+title = "Tasks: toggle dock"
+contexts = ["workspace", "tab", "pane"]
+command = ["bash", "scripts/open-dock.sh"]
+
+[[actions]]
+id = "open-board"
+title = "Tasks: open board overlay"
+contexts = ["workspace", "tab", "pane"]
+command = ["bash", "scripts/open-board.sh"]
