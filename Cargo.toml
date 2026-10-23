@@ -10,6 +10,10 @@ license = "MIT"
 name = "herdr_tasks"
 path = "src/lib.rs"
 
+[[bin]]
+name = "herdr-tasks"
+path = "src/main.rs"
+
 [dependencies]
 ratatui = "0.29"
 clap = { version = "4", features = ["derive"] }

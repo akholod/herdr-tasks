@@ -3,9 +3,12 @@
 //! One binary: `tui` is the panel, every other subcommand is the CLI. All
 //! three writers (CLI, TUI, sync) go through `store`.
 
+pub mod cli;
 pub mod config;
 pub mod error;
 pub mod herdr;
+pub mod skill;
 pub mod store;
 pub mod sync;
+pub mod tui;
 pub mod watch;
