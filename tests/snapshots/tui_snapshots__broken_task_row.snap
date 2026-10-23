@@ -1,0 +1,20 @@
+---
+source: tests/tui_snapshots.rs
+expression: s
+---
+[Priority] [Status] [Project]             3 proj
+▾ Pinned (1)
+P1 ● t-0001 Release 0.1 · beta
+▾ P0 (1)
+P0 ● t-0001 Fix dock width on narrow ta… · alpha
+▾ P1 (1)
+P1 ● t-0002 Add GitHub sync · beta
+▾ P2 (1)
+P2 ● t-0002 Write README · alpha
+▾ unknown (1)
+t-0003 ! invalid task.toml: invalid string expe…
+
+
+
+
+n new · s status · t pin · R sync · ? help

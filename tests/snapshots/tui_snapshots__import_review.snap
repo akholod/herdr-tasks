@@ -1,0 +1,18 @@
+---
+source: tests/tui_snapshots.rs
+expression: "draw(&mut app, 48, 14)"
+---
+[Priority] [Status] [Project]             3 proj
+▾ Pinned (1)
+P1 ● t-0001 Release 0.1 · beta
+┌ Новые issue (2) · alpha ─────────────────────┐
+│[x] #12 Crash on start  bug                   │
+│[ ] #15 Docs typo                             │
+│▾ Пропущенные (1)                             │
+│    #9 Old idea  (u: вернуть)                 │
+│                                              │
+│[ Import ] [ Cancel ]  Space a Enter Esc      │
+└──────────────────────────────────────────────┘
+
+
+n new · s status · t pin · R sync · ? help

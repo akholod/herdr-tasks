@@ -1,0 +1,16 @@
+---
+source: tests/tui_snapshots.rs
+expression: wide
+---
+[Priority] [Status] [Project]                                                                 3 proj
+▾ ★ Pinned (1)
+P1 Release 0.1 · beta
+todo (1)                 in-progress (1)          testing (0)              done (1)
+──────────────────────── ──────────────────────── ──────────────────────── ─────────────────────────
+P2 Write README          P0 Fix dock width on na…                          P1 Add GitHub sync
+
+
+
+
+
+n new · s status · t pin · R sync · ? help

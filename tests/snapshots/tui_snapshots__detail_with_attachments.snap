@@ -1,0 +1,34 @@
+---
+source: tests/tui_snapshots.rs
+expression: s
+---
+[Priority] [Status] [Project]             3 proj
+▾ Pinned (1)
+P1 ● t-0001 Release 0.1
+▾ alpha (2)
+P0 ● t-0001 Fix dock width on narrow tabs
+P2 ● t-0002 Write README
+▾ beta (1)
+P1 ● t-0002 Add GitHub sync
+▾ gamma (1)
+P1 ● t-0001 Collect logs
+
+
+
+
+
+
+
+
+┌ t-0001 · gamma ───────────────────────────[x]┐
+│Collect logs                                  │
+│[todo] [P1] [pin] [details]                   │
+│                                              │
+│About Collect logs.                           │
+│                                              │
+│attachments (2)                               │
+│› log.txt  12.3 KB                            │
+│  shot.png  300 B                             │
+│                                              │
+└──────────────────────────────────────────────┘
+n new · s status · t pin · R sync · ? help
