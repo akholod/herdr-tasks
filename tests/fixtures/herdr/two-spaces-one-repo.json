@@ -1,0 +1,77 @@
+{
+ "id": "cli:api:snapshot",
+ "result": {
+  "snapshot": {
+   "agents": [],
+   "focused_pane_id": null,
+   "focused_tab_id": null,
+   "focused_workspace_id": null,
+   "layouts": [],
+   "panes": [
+    {
+     "agent_status": "unknown",
+     "cwd": "/work/repo/a",
+     "focused": false,
+     "foreground_cwd": "/work/repo/a",
+     "label": "a",
+     "pane_id": "w2:p1",
+     "revision": 1,
+     "scroll": {
+      "max_offset_from_bottom": 0,
+      "offset_from_bottom": 0,
+      "viewport_rows": 40
+     },
+     "tab_id": "w2:t1",
+     "terminal_id": "term_w2_p1",
+     "terminal_title": "zsh",
+     "terminal_title_stripped": "zsh",
+     "workspace_id": "w2"
+    },
+    {
+     "agent_status": "unknown",
+     "cwd": "/work/repo/b",
+     "focused": false,
+     "foreground_cwd": "/work/repo/b",
+     "label": "b",
+     "pane_id": "w1:p1",
+     "revision": 1,
+     "scroll": {
+      "max_offset_from_bottom": 0,
+      "offset_from_bottom": 0,
+      "viewport_rows": 40
+     },
+     "tab_id": "w1:t1",
+     "terminal_id": "term_w1_p1",
+     "terminal_title": "zsh",
+     "terminal_title_stripped": "zsh",
+     "workspace_id": "w1"
+    }
+   ],
+   "protocol": 1,
+   "tabs": [],
+   "version": "0.9.5",
+   "workspaces": [
+    {
+     "active_tab_id": "w2:t1",
+     "agent_status": "unknown",
+     "focused": false,
+     "label": "second",
+     "number": 2,
+     "pane_count": 1,
+     "tab_count": 1,
+     "workspace_id": "w2"
+    },
+    {
+     "active_tab_id": "w1:t1",
+     "agent_status": "unknown",
+     "focused": false,
+     "label": "first",
+     "number": 1,
+     "pane_count": 1,
+     "tab_count": 1,
+     "workspace_id": "w1"
+    }
+   ]
+  }
+ }
+}

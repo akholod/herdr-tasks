@@ -5,5 +5,7 @@
 
 pub mod config;
 pub mod error;
+pub mod herdr;
 pub mod store;
 pub mod sync;
+pub mod watch;

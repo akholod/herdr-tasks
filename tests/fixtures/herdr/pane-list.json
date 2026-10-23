@@ -1,0 +1,102 @@
+{
+ "id": "cli:pane:list",
+ "result": {
+  "panes": [
+   {
+    "agent_status": "unknown",
+    "cwd": "/work/alpha/src",
+    "focused": true,
+    "foreground_cwd": "/work/alpha/src",
+    "label": "src",
+    "pane_id": "w1:p1",
+    "revision": 1,
+    "scroll": {
+     "max_offset_from_bottom": 0,
+     "offset_from_bottom": 0,
+     "viewport_rows": 40
+    },
+    "tab_id": "w1:t1",
+    "terminal_id": "term_w1_p1",
+    "terminal_title": "zsh",
+    "terminal_title_stripped": "zsh",
+    "workspace_id": "w1"
+   },
+   {
+    "agent_status": "unknown",
+    "cwd": "/work/alpha/docs",
+    "focused": false,
+    "foreground_cwd": "/work/alpha/docs",
+    "label": "docs",
+    "pane_id": "w1:p2",
+    "revision": 1,
+    "scroll": {
+     "max_offset_from_bottom": 0,
+     "offset_from_bottom": 0,
+     "viewport_rows": 40
+    },
+    "tab_id": "w1:t1",
+    "terminal_id": "term_w1_p2",
+    "terminal_title": "zsh",
+    "terminal_title_stripped": "zsh",
+    "workspace_id": "w1"
+   },
+   {
+    "agent_status": "unknown",
+    "cwd": "/work/herdr-tasks",
+    "focused": false,
+    "foreground_cwd": "/work/herdr-tasks",
+    "label": "herdr-tasks",
+    "pane_id": "w1:p9",
+    "revision": 1,
+    "scroll": {
+     "max_offset_from_bottom": 0,
+     "offset_from_bottom": 0,
+     "viewport_rows": 40
+    },
+    "tab_id": "w1:t1",
+    "terminal_id": "term_w1_p9",
+    "terminal_title": "herdr-tasks-dock",
+    "terminal_title_stripped": "herdr-tasks-dock",
+    "workspace_id": "w1"
+   },
+   {
+    "agent_status": "unknown",
+    "cwd": "/work/notes",
+    "focused": false,
+    "foreground_cwd": "/work/notes",
+    "label": "notes",
+    "pane_id": "w2:p1",
+    "revision": 1,
+    "scroll": {
+     "max_offset_from_bottom": 0,
+     "offset_from_bottom": 0,
+     "viewport_rows": 40
+    },
+    "tab_id": "w2:t1",
+    "terminal_id": "term_w2_p1",
+    "terminal_title": "zsh",
+    "terminal_title_stripped": "zsh",
+    "workspace_id": "w2"
+   },
+   {
+    "agent_status": "unknown",
+    "cwd": "/work/idle",
+    "focused": false,
+    "foreground_cwd": "/work/idle",
+    "label": "idle",
+    "pane_id": "w3:p1",
+    "revision": 1,
+    "scroll": {
+     "max_offset_from_bottom": 0,
+     "offset_from_bottom": 0,
+     "viewport_rows": 40
+    },
+    "tab_id": "w3:t1",
+    "terminal_id": "term_w3_p1",
+    "terminal_title": "zsh",
+    "terminal_title_stripped": "zsh",
+    "workspace_id": "w3"
+   }
+  ]
+ }
+}

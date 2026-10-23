@@ -1,0 +1,240 @@
+{
+ "id": "cli:api:snapshot",
+ "result": {
+  "snapshot": {
+   "agents": [],
+   "focused_pane_id": null,
+   "focused_tab_id": null,
+   "focused_workspace_id": null,
+   "layouts": [
+    {
+     "area": {
+      "height": 50,
+      "width": 200,
+      "x": 0,
+      "y": 0
+     },
+     "focused_pane_id": "w1:p1",
+     "panes": [
+      {
+       "focused": true,
+       "pane_id": "w1:p1",
+       "rect": {
+        "height": 50,
+        "width": 66,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "focused": false,
+       "pane_id": "w1:p2",
+       "rect": {
+        "height": 50,
+        "width": 66,
+        "x": 66,
+        "y": 0
+       }
+      },
+      {
+       "focused": false,
+       "pane_id": "w1:p9",
+       "rect": {
+        "height": 50,
+        "width": 66,
+        "x": 132,
+        "y": 0
+       }
+      }
+     ],
+     "splits": [],
+     "tab_id": "w1:t1",
+     "workspace_id": "w1",
+     "zoomed": false
+    },
+    {
+     "area": {
+      "height": 50,
+      "width": 200,
+      "x": 0,
+      "y": 0
+     },
+     "focused_pane_id": "w2:p1",
+     "panes": [
+      {
+       "focused": true,
+       "pane_id": "w2:p1",
+       "rect": {
+        "height": 50,
+        "width": 200,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ],
+     "splits": [],
+     "tab_id": "w2:t1",
+     "workspace_id": "w2",
+     "zoomed": false
+    },
+    {
+     "area": {
+      "height": 50,
+      "width": 200,
+      "x": 0,
+      "y": 0
+     },
+     "focused_pane_id": "w3:p1",
+     "panes": [
+      {
+       "focused": true,
+       "pane_id": "w3:p1",
+       "rect": {
+        "height": 50,
+        "width": 200,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ],
+     "splits": [],
+     "tab_id": "w3:t1",
+     "workspace_id": "w3",
+     "zoomed": false
+    }
+   ],
+   "panes": [
+    {
+     "agent_status": "unknown",
+     "cwd": "/work/alpha/src",
+     "focused": true,
+     "foreground_cwd": "/work/alpha/src",
+     "label": "src",
+     "pane_id": "w1:p1",
+     "revision": 1,
+     "scroll": {
+      "max_offset_from_bottom": 0,
+      "offset_from_bottom": 0,
+      "viewport_rows": 40
+     },
+     "tab_id": "w1:t1",
+     "terminal_id": "term_w1_p1",
+     "terminal_title": "zsh",
+     "terminal_title_stripped": "zsh",
+     "workspace_id": "w1"
+    },
+    {
+     "agent_status": "unknown",
+     "cwd": "/work/alpha/docs",
+     "focused": false,
+     "foreground_cwd": "/work/alpha/docs",
+     "label": "docs",
+     "pane_id": "w1:p2",
+     "revision": 1,
+     "scroll": {
+      "max_offset_from_bottom": 0,
+      "offset_from_bottom": 0,
+      "viewport_rows": 40
+     },
+     "tab_id": "w1:t1",
+     "terminal_id": "term_w1_p2",
+     "terminal_title": "zsh",
+     "terminal_title_stripped": "zsh",
+     "workspace_id": "w1"
+    },
+    {
+     "agent_status": "unknown",
+     "cwd": "/work/herdr-tasks",
+     "focused": false,
+     "foreground_cwd": "/work/herdr-tasks",
+     "label": "herdr-tasks",
+     "pane_id": "w1:p9",
+     "revision": 1,
+     "scroll": {
+      "max_offset_from_bottom": 0,
+      "offset_from_bottom": 0,
+      "viewport_rows": 40
+     },
+     "tab_id": "w1:t1",
+     "terminal_id": "term_w1_p9",
+     "terminal_title": "herdr-tasks-dock",
+     "terminal_title_stripped": "herdr-tasks-dock",
+     "workspace_id": "w1"
+    },
+    {
+     "agent_status": "unknown",
+     "cwd": "/work/notes",
+     "focused": false,
+     "foreground_cwd": "/work/notes",
+     "label": "notes",
+     "pane_id": "w2:p1",
+     "revision": 1,
+     "scroll": {
+      "max_offset_from_bottom": 0,
+      "offset_from_bottom": 0,
+      "viewport_rows": 40
+     },
+     "tab_id": "w2:t1",
+     "terminal_id": "term_w2_p1",
+     "terminal_title": "zsh",
+     "terminal_title_stripped": "zsh",
+     "workspace_id": "w2"
+    },
+    {
+     "agent_status": "unknown",
+     "cwd": "/work/idle",
+     "focused": false,
+     "foreground_cwd": "/work/idle",
+     "label": "idle",
+     "pane_id": "w3:p1",
+     "revision": 1,
+     "scroll": {
+      "max_offset_from_bottom": 0,
+      "offset_from_bottom": 0,
+      "viewport_rows": 40
+     },
+     "tab_id": "w3:t1",
+     "terminal_id": "term_w3_p1",
+     "terminal_title": "zsh",
+     "terminal_title_stripped": "zsh",
+     "workspace_id": "w3"
+    }
+   ],
+   "protocol": 1,
+   "tabs": [],
+   "version": "0.9.5",
+   "workspaces": [
+    {
+     "active_tab_id": "w1:t1",
+     "agent_status": "unknown",
+     "focused": true,
+     "label": "alpha",
+     "number": 1,
+     "pane_count": 3,
+     "tab_count": 1,
+     "workspace_id": "w1"
+    },
+    {
+     "active_tab_id": "w2:t1",
+     "agent_status": "unknown",
+     "focused": false,
+     "label": "notes",
+     "number": 2,
+     "pane_count": 1,
+     "tab_count": 1,
+     "workspace_id": "w2"
+    },
+    {
+     "active_tab_id": "w3:t1",
+     "agent_status": "unknown",
+     "focused": false,
+     "label": "empty-space",
+     "number": 3,
+     "pane_count": 1,
+     "tab_count": 1,
+     "workspace_id": "w3"
+    }
+   ]
+  }
+ }
+}
